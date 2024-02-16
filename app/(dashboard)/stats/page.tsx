@@ -1,6 +1,10 @@
-import React from "react";
+import { getStatsAction, getChartsDataAction } from "@/utils/actions";
 
-const StatsPage = () => {
+const StatsPage = async () => {
+  //   const stats = await getStatsAction();
+  const charts = await getChartsDataAction();
+  console.log(charts);
+
   return <div className="text-4xl">StatsPage</div>;
 };
 
