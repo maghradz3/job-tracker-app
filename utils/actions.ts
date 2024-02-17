@@ -85,6 +85,7 @@ export async function getAllJobsActions({
     }
 
     const jobs: JobType[] = await prisma.job.findMany({
+      take: limit,
       where: whereClause,
       orderBy: {
         updatedAt: "desc",
