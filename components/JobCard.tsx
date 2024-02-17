@@ -28,7 +28,7 @@ const JobCard = ({ job }: { job: JobType }) => {
   }
   const date = new Date(job.createdAt).toLocaleDateString();
   return (
-    <Card className="bg-muted">
+    <Card className="bg-muted relative">
       <CardHeader>
         <CardTitle>{job.position}</CardTitle>
         <CardDescription>{job.company}</CardDescription>

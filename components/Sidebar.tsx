@@ -11,6 +11,7 @@ const Sidebar = () => {
     <aside className="h-y px-8 bg-muted h-full">
       <Image
         src={Logo}
+        priority
         alt="logo"
         width={80}
         height={80}

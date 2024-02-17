@@ -7,9 +7,7 @@ import Link from "next/link";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
-const text = ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eum
-asperiores facilis aliquam a, earum iusto est quae sequi voluptates
-commodi ex nobis. Soluta nihil doloribus harum sequi id nisi!`;
+const text = `Job Tracker: Your ultimate job application companion. Effortlessly monitor your job applications, ensuring you never miss an opportunity. Streamline your job search with real-time tracking and insightful analytics.`;
 
 export default function Home() {
   return (
@@ -19,7 +17,7 @@ export default function Home() {
       </header>
       <section className="max-w-6xl mx-auto px-4 sm:px-8 h-screen mt-20 grid lg:grid-cols-[1fr,400px] item-center">
         <div className="flex flex-col gap-5">
-          <h1 className="capitalize text-4x d:text-7x font-bold">
+          <h1 className="capitalize text-4xl md:text-7xl font-bold">
             {" "}
             job <span className="text-primary">tracking</span> app
           </h1>
