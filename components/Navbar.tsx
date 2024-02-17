@@ -3,6 +3,7 @@ import { UserButton } from "@clerk/nextjs";
 import ThemeToggle from "./ThemeToggle";
 
 const NavBar = () => {
+  console.log(UserButton);
   return (
     <nav className="bg-muted py-4 sm:px-16 lg:px-24 flex itmes-center justify-between">
       <div>

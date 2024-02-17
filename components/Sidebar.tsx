@@ -1,5 +1,5 @@
 "use client";
-import Logo from "@/assets/djlogo.png";
+import Logo from "@/assets/maiinLogo.png";
 import { links } from "@/utils/links";
 import Image from "next/image";
 import Link from "next/link";
